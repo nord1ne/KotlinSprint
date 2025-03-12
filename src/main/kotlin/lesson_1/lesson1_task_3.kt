@@ -11,6 +11,7 @@ fun main() {
         $minute
     """.trimIndent()
     )
+
     hour = "10"
     minute = "55"
     print("$hour:$minute")
