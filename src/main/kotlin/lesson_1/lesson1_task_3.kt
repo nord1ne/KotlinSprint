@@ -7,8 +7,8 @@ fun main() {
 
     println(
         """
-        $hour,
-        $minute,
+        $hour
+        $minute
     """.trimIndent()
     )
     hour = "10"
