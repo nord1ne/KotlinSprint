@@ -5,7 +5,12 @@ fun main() {
     var hour = "09"
     var minute = "07"
 
-    println("$year\n$hour\n$minute")
+    println(
+        """
+        $hour,
+        $minute,
+    """.trimIndent()
+    )
     hour = "10"
     minute = "55"
     print("$hour:$minute")
