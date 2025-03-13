@@ -1,6 +1,7 @@
 package org.example.lesson_1
 
 fun main() {
+
     var crystalOre = 7
     var metalOre = 11
     val buff = 0.2
