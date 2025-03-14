@@ -11,6 +11,5 @@ fun main() {
 
     println(String.format("%2d:%2d",arriveHour,arriveMinute))
 
-
 }
 
