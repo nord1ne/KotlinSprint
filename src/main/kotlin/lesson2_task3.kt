@@ -9,7 +9,7 @@ fun main() {
 
     val arriveHour = departureHour + (travelTimeMinutes / minutesInHour)
     val arriveMinute = (travelTimeMinutes + departureMinute) % minutesInHour
-    println(String.format("%2d:%2d", arriveHour, arriveMinute))
+    println(String.format("%2d:%2d",arriveHour,arriveMinute))
 
 
 }
