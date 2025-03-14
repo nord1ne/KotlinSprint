@@ -4,12 +4,12 @@ fun main() {
 
     var crystalOre = 7
     var metalOre = 11
-    val buff = 0.2
+    val buff = 20
 
     println(
         """
-        Количество бонусной кристаллической руды: ${(crystalOre * buff).toInt()}
-        Количество бонусной железной руды: ${(metalOre * buff).toInt()}
+        Количество бонусной кристаллической руды: ${(buff * crystalOre) / 100.toInt()}
+        Количество бонусной железной руды: ${(buff * metalOre) / 100.toInt()}
     """.trimIndent()
     )
 }
