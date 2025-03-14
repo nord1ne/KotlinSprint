@@ -9,7 +9,7 @@ fun main() {
     val minutesInSpace = totalSecondsInSpace / minutesInHour - hoursInSpace * minutesInHour
     val secondsInSpace = totalSecondsInSpace % (totalSecondsInSpace / minutesInHour)
 
-    println("${String.format("%02d", hoursInSpace)}:${String.format("%02d",minutesInSpace)}:${String.format("%02d", secondsInSpace)}")
+    println(String.format("%02d:%02d:%02d", hoursInSpace, minutesInSpace, secondsInSpace))
 
 }
 
