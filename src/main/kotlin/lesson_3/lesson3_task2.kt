@@ -1,17 +1,15 @@
 package org.example.lesson_3
 
 fun main() {
-    var maidenName = "Андреева"
-    var lastNameActual = "Сидорова"
+
+    var lastName = "Андреева"
     var name = "Татьяна"
     var patronymic = "Сергеевна"
-    val marriageAge = 22
-    val checkAge = 20
+    var age = 20
 
-    println("ФИО: $maidenName $name $patronymic, $checkAge")
-    println("ФИО: $lastNameActual $name $patronymic, $marriageAge")
-
+    println("ФИО: $lastName $name $patronymic, $age")
+    age = 22
+    lastName = "Сидорова"
+    println("ФИО: $lastName $name $patronymic, $age")
 
 }
-
-
