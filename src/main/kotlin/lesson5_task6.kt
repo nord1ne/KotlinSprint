@@ -2,7 +2,7 @@ package org.example
 
 import kotlin.math.pow
 
-const val CM_IN_METER: Double = 100.0
+const val CM_IN_METER = 100
 const val LOW_MASS: Double = 18.5
 const val NORMAL_MASS: Double = 25.0
 const val OVER_MASS: Double = 30.0
