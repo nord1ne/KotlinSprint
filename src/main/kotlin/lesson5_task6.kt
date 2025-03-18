@@ -19,8 +19,8 @@ fun main() {
     else if (bmIndex >= LOW_MASS && bmIndex < NORMAL_MASS)
         println("$LOW_MASS <= ИМТ < $NORMAL_MASS: Нормальная масса тела")
     else if (bmIndex >= NORMAL_MASS && bmIndex < OVER_MASS)
-        println("$NORMAL_MASS<= ИМТ < $OVER_MASS: Избыточная масса тела")
-    else if (bmIndex > OVER_MASS)
+        println("$NORMAL_MASS <= ИМТ < $OVER_MASS: Избыточная масса тела")
+    else if (bmIndex >= OVER_MASS)
         println("ИМТ > $OVER_MASS: Ожирение")
 
     println("Ваш ИМТ: ${String.format("%.2f", bmIndex)}")
