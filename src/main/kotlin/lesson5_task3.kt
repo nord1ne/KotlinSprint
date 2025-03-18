@@ -15,4 +15,6 @@ fun main() {
         else if (isBothGuessed) println("Поздравляем! Вы выиграли главный приз!")
         else println("Неудача!")
     } else println("Ошибка! Одно или оба введенных числа вне диапазона от 0 до 42. Попробуйте еще раз!")
+
+    println("Загаданные числа: $winNumbers")
 }
