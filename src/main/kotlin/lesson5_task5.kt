@@ -7,7 +7,8 @@ fun main() {
     val num1 = Random.nextInt(0, 43)
     val num2 = Random.nextInt(0, 43)
     val num3 = Random.nextInt(0, 43)
-    val winNumbers = setOf(num1, num2, num3) //в идеале нужно исключить возможность повтора чисел условиями или поменять на массив
+    val winNumbers =
+        setOf(num1, num2, num3) //в идеале нужно исключить возможность повтора чисел условиями или поменять на массив
 
     println("Введите первое число от 0 до 42")
     val input1 = readln().toInt()
